@@ -6,8 +6,12 @@ st.set_page_config(layout="centered")
 
 st.title("Classification and Prediction of Diabetes")
 st.header("WQD7003: Data Analytics (APPLE)", divider="grey")
-st.write("This is a draft model to help individuals to predict diabetes. The trained model used in this project is \
-         Support Vector Machine. The data used to train our model was obtained from http://hbiostat.org/data courtesy of the \
+st.write("This is a draft model to help individuals to predict diabetes. must be aware of the limitations of such classification model, \
+         and it is not intended to replace lab-based medical tests nor formal diagnosis by medical professionals.
+
+st.write("*********************************************************************************************************************")
+st.write("The best model we achieved used for prediction here is \
+         Support Vector Machine classifer. The data used to train our model was obtained from http://hbiostat.org/data courtesy of the \
          Vanderbilt University Department of Biostatistics.")
 st.write("The summary of the result for our model is displayed as below: ")
 st.write("Accuracy: 93.59%")
