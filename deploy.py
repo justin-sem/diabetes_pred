@@ -5,15 +5,16 @@ import streamlit as st
 st.set_page_config(layout="centered")
 
 st.title("Classification and Prediction of Diabetes")
-st.header("WQD7001: PRINCIPLES OF DATA SCIENCE (GROUP 9)", divider="grey")
+st.header("WQD7003: Data Analytics (APPLE)", divider="grey")
 st.write("This is a draft model to help individuals to predict diabetes. The trained model used in this project is \
-         Gaussian Naive Bayes. The data used to train our model was obtained from http://hbiostat.org/data courtesy of the \
+         Support Vector Machine. The data used to train our model was obtained from http://hbiostat.org/data courtesy of the \
          Vanderbilt University Department of Biostatistics.")
 st.write("The summary of the result for our model is displayed as below: ")
-st.write("Accuracy: 92.30%")
-st.write("Precision: 70.58%")
-st.write("Recall: 92.30%")
-st.write("F1-Score: 80.00%")
+st.write("Accuracy: 93.59%")
+st.write("Precision: 78.57%")
+st.write("Recall: 84.62%")
+st.write("F1-Score: 81.48%")
+st.write("ROC AUC Score: 0.90")
 
 st.write("******************************************************************************************************************")
 
