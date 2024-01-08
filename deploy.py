@@ -50,7 +50,7 @@ waist = st.number_input("Waist (Inches)", min_value=0)
 hip = st.number_input("Hip (Inches)", min_value=0)
 
 
-loaded_model = pickle.load(open('GNB_model.sav', 'rb'))
+loaded_model = pickle.load(open('SVM_model.sav', 'rb'))
 
 predTest = [[chol,stab_glu,hdl,ratio,age,weight,frame,bp_1s,waist,hip]]
 
