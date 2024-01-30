@@ -1,4 +1,4 @@
-# CLASSIFICATION & PREDICTION OF DIABETES
+# Classification & Prediction of Diabetes
 
 The diabetes data used in this project is obtained from 'Vanderbilt Biostatistics Datasets', https://hbiostat.org/data/ which are courtesy of Dr John Schorling, Department of Medicine, University of Virginia School of Medicine.
 
